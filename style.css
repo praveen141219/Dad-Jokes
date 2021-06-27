@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  background: #36b3b3;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+.joke_box {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 8px 32px 0 rgba(54, 86, 181, 0.54);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  text-align: center;
+  width: 55rem;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.joke_box p {
+  color: #aaa;
+  font-size: calc(1rem + 0.5vw);
+}
+.joke_box h1 {
+  font-size: calc(1.5rem + 0.5vw);
+  font-weight: 400;
+}
+
+.joke_box button {
+  padding: 1rem 3rem;
+  font-size: calc(1rem + 0.3vw);
+  border: none;
+  background: #087272;
+  box-shadow: 0 8px 30px 0 #087272;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
